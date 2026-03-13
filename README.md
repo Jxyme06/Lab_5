@@ -9,3 +9,7 @@ gcc -O0 -S HelloWorld.c
 g++ -O0 -S HelloWorldCpp.cpp
 ## Compile for 3 (Figure 4)
 gcc -O0 -S Figure_4.c
+## Compile Figure_5
+gcc -m32 -no-pie Figure_5.s -o Figure_5
+## Run Figure_5
+./Figure_5
